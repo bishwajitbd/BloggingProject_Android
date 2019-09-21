@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlogSingleActivity"
+    android:paddingLeft="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/txtPostTitleSingle"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:text="Post Title"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPostDescriptionSingle"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:text="Post Description"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
